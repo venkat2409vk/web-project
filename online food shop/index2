@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkatkrishna D | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            color: #333;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            animation: slideDown 2s ease-in-out;
+        }
+        section {
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .about, .skills {
+            margin-bottom: 50px;
+        }
+        .about h2, .skills h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .about p, .skills p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        footer a {
+            color: #fda085;
+            text-decoration: none;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes slideDown {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Venkatkrishna D</h1>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am Venkatkrishna D, currently pursuing a Bachelor of Engineering (BE) in Electronics and Communication Engineering. I am passionate about designing and developing mobile applications, and I love to explore new technology trends.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>App Development: Skilled in creating user-friendly and functional apps across various platforms, focusing on enhancing user experience.</li>
+            <li>Website Development: Experienced in building and maintaining websites using front-end technologies (HTML, CSS, JavaScript).</li>
+            <li>Python Programming: Adept at developing automation scripts, data analysis tools, and versatile software solutions in Python.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Contact me at <a href="mailto:venkat333vk@gmail.com">venkat333vk@gmail.com</a> | Phone: +91 9787955069</p>
+        <p>Follow me on <a href="https://www.instagram.com/venkat_2409?igsh=bXo3MWY1NjRhNzV4" target="_blank">Instagram</a></p>
+    </footer>
+
+</body>
+</html>
